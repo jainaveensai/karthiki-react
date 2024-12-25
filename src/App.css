@@ -1,0 +1,43 @@
+
+.Header {
+ 
+ justify-content: space-between;
+ display: flex;
+ margin: 10px;
+ border: 5px solid black;
+ background-color: rgb(66, 64, 64);
+ 
+}
+.food{
+  width: 100px;
+}
+.navbar > ul{
+  font-weight: 400px;
+  font-size: medium;
+ display: flex;
+ list-style-type: none;
+ color: rgb(233, 231, 240);
+
+}
+.navbar>ul>li{
+  
+  padding: 10px;
+}
+.resList{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.resto{
+  width: 200px;
+  margin: 10px;
+  border: 2px solid gray;
+  padding: 10px;
+
+}
+.resto> img{
+  width: 100%;
+ 
+}
+
+
